@@ -3,11 +3,13 @@
 void UseStructures();
 void UseEnumerations();
 void UsePointersAndTheFreeStore();
+void PlayKeyboardWhackEmAll();
 
 int main() {
 
     //UseStructures();
     //UseEnumerations();
-    UsePointersAndTheFreeStore();
+    //UsePointersAndTheFreeStore();
+    PlayKeyboardWhackEmAll();
     return 0;
 }
