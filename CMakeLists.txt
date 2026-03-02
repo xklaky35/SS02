@@ -8,9 +8,7 @@ add_executable(SS02 main.cpp
         UsingStructures/UsingStructures.cpp
         UsingEnumerations/UsingEnumerations.cpp
         UsingPointersAndTheFreeStore/UsingPointersAndTheFreeStore.cpp
-        KeyboardWhackEmAll/KeyboardWhackEmAll.cpp
-        KeyboardWhackEmAll/Windows.cpp
-        KeyboardWhackEmAll/Windows.h)
+        KeyboardWhackEmAll/KeyboardWhackEmAll.cpp)
 
 find_package(Curses REQUIRED)
 include_directories(${CURSES_INCLUDE_DIR})
