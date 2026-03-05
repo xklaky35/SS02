@@ -10,7 +10,9 @@ add_executable(SS02 main.cpp
         UsingPointersAndTheFreeStore/UsingPointersAndTheFreeStore.cpp
         KeyboardWhackEmAll/KeyboardWhackEmAll.cpp
         GreenJewelWorld/GreenJewelWorld.cpp
-        SpacemanZuurp/SpacemanZuurp.cpp)
+        SpacemanZuurp/SpacemanZuurp.cpp
+        Battleship/Battleships.cpp
+)
 
 find_package(Curses REQUIRED)
 include_directories(${CURSES_INCLUDE_DIR})

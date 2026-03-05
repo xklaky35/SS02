@@ -4,6 +4,7 @@ void UsePointersAndTheFreeStore();
 void PlayKeyboardWhackEmAll();
 void PlayGreenJewelWorld();
 void PlaySpacemanZuurp();
+void PlayBattleships();
 
 int main() {
     //UseStructures();
@@ -11,6 +12,7 @@ int main() {
     //UsePointersAndTheFreeStore();
     //PlayKeyboardWhackEmAll();
     //PlayGreenJewelWorld();
-    PlaySpacemanZuurp();
+    //PlaySpacemanZuurp();
+    PlayBattleships();
     return 0;
 }
