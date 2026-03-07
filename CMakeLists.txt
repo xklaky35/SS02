@@ -12,6 +12,8 @@ add_executable(SS02 main.cpp
         GreenJewelWorld/GreenJewelWorld.cpp
         SpacemanZuurp/SpacemanZuurp.cpp
         Battleship/Battleships.cpp
+        Battleship/Setup.cpp
+        Battleship/Setup.h
 )
 
 find_package(Curses REQUIRED)
